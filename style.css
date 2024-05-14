@@ -1,0 +1,70 @@
+/* Global Style */
+
+:root {
+    /* Primary Colors */
+
+    --nutmeg--color: #854632;
+    --dark-raspberry--color: #7b284f;
+
+    /* Neutral Colors */
+
+    --white--color: #ffffff;
+    --rose-white--color: #fff5fa;
+    --eggshell--color: #f3e6d8;
+    --light-grey--color: #e4dcd8;
+    --wenge-brown--color: #5f574e;
+    --dark-charcoal--color: #302d2c;
+
+    /* Fonts */
+
+    --title-text: "Young Serif", serif;
+    --body-text: "Outfit", sans-serif;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-text);
+    background-color: var(--eggshell--color);
+    font-size: 1.6rem;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1, h2 {
+    font-family: var(--title-text);
+}
+
+/* Global Style */
+
+article{
+    background-color: var(--white--color);
+    padding: 4rem;
+    width: 74.6rem;
+    border-radius: 2.2rem;
+}
+
+article img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Top-info */
+
+h1 {
+    font-size: 4.2rem;
+    margin-top: 4.2rem;
+}
+
+p {
+    margin-top: 3.6rem;
+    color: var(--wenge-brown--color);
+}
